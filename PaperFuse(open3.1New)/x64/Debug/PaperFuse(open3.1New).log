@@ -1,0 +1,36 @@
+﻿已經開始建置於 2017/6/6 上午 03:10:33。
+     1>節點 2 (Build 目標) 上的專案 "D:\MyProject-opencv\PaperFuse(open3.1New)\PaperFuse(open3.1New)\PaperFuse(open3.1New).vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\opencv3.10\build\include\opencv2/core/mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\opencv3.10\build\include\opencv2/core/persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\opencv3.10\build\include\opencv2/core/utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>Source.cpp(186): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>Source.cpp(188): warning C4244: '=' : 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>Source.cpp(399): warning C4258: 'j' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 Source.cpp(394) : 已忽略 'j' 的定義
+                 Source.cpp(367) : 已使用 'j' 的定義
+     1>Source.cpp(435): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 Source.cpp(427) : 已忽略 'i' 的定義
+                 Source.cpp(333) : 已使用 'i' 的定義
+     1>Source.cpp(437): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 Source.cpp(427) : 已忽略 'i' 的定義
+                 Source.cpp(333) : 已使用 'i' 的定義
+     1>Source.cpp(442): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 Source.cpp(427) : 已忽略 'i' 的定義
+                 Source.cpp(333) : 已使用 'i' 的定義
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProject-opencv\PaperFuse(open3.1New)\x64\Debug\PaperFuse(open3.1New).exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyProject-opencv\PaperFuse(open3.1New)\x64\Debug\PaperFuse(open3.1New).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProject-opencv\PaperFuse(open3.1New)\x64\Debug\PaperFuse(open3.1New).lib" /MACHINE:X64 x64\Debug\myBlockDescriptor.obj
+         x64\Debug\myClassifierBase.obj
+         x64\Debug\myImageSequence.obj
+         x64\Debug\myLBP.obj
+         x64\Debug\mySupervisedClassifier.obj
+         x64\Debug\mySVM.obj
+         x64\Debug\Source.obj
+         PaperFuse(open3.1New).vcxproj -> D:\MyProject-opencv\PaperFuse(open3.1New)\x64\Debug\PaperFuse(open3.1New).exe
+     1>專案 "D:\MyProject-opencv\PaperFuse(open3.1New)\PaperFuse(open3.1New)\PaperFuse(open3.1New).vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.96
